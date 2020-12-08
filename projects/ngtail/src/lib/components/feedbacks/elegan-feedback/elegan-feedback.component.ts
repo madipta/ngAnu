@@ -7,14 +7,14 @@ import { Component, Input } from '@angular/core';
       <div class="container px-5 py-24 mx-auto sm:flex sm:flex-wrap">
         <div class="lg:w-2/3 md:w-1/2 w-full bg-gray-300 rounded-lg overflow-hidden p-10 flex items-end justify-start relative">
           <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
-          <div class="bg-white relative flex flex-wrap py-6">
+          <div class="bg-white text-xs relative flex flex-wrap py-4 rounded shadow-lg">
             <div class="lg:w-1/2 px-6">
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
               <p class="leading-relaxed" [innerHtml]="address"></p>
             </div>
             <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
-              <a class="text-indigo-500 leading-relaxed">{{email}}</a>
+              <a class="cursor-pointer text-indigo-500 leading-relaxed">{{email}}</a>
               <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
               <p class="leading-relaxed">{{phone}}</p>
             </div>

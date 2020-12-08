@@ -7,7 +7,7 @@ import { DataArticle } from '../data-article';
     <section class="text-gray-700 body-font">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-wrap justify-center -m-4">
-          <div class="p-4 md:w-1/{{ cols }}" *ngFor="let article of articles">
+          <div class="p-4 sm:w-1/2 md:w-1/{{ cols }}" *ngFor="let article of articles">
             <anu-image-article-item
               [article]="article"
             ></anu-image-article-item>

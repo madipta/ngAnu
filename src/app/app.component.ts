@@ -75,4 +75,54 @@ export class AppComponent {
         'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
     },
   ];
+  products = [
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$16.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer Dummy Product',
+      price: '$16.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$16.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$16.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer Dummy Product',
+      price: '$16.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$18.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$18.00'
+    },
+    {
+      imageUrl: 'https://dummyimage.com/420x260',
+      category: 'Shampoo',
+      title: 'The Catalyzer',
+      price: '$18.00'
+    },
+  ];
 }
