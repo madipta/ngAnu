@@ -28,6 +28,15 @@ export class AppComponent {
       description:
         'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
     },
+  ];
+  plains = [
+    {
+      category: 'Movies',
+      title: 'Harry Potter',
+      imageUrl: 'https://dummyimage.com/720x400',
+      description:
+        'Psriracha leggings jianbing microdosing.',
+    },
     {
       category: 'Movies',
       title: 'Harry Potter',

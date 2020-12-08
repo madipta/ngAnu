@@ -10,9 +10,10 @@
     "tslib": "^2.0.0"
   },
   "ngPackage": {
+    "assets": ["src/styles.scss"],
     "lib": {
-      "entryFile": "public_api.ts"
+      "entryFile": "src/public-api.ts"
     },
-    "dest": "../../dist/ngx-tabs-lib"
+    "dest": "../../dist/ngtail"
   }
 }
