@@ -17,6 +17,10 @@ import { PlainSubscribeComponent } from './components/subscribes/plain-subscribe
 import { ProductComponent } from './components/products/product/product.component';
 import { ProductItemComponent } from './components/products/product/product-item.component';
 import { DetailProductComponent } from './components/products/detail-product/detail-product.component';
+import { FooterComponent } from './components/footers/footer/footer.component';
+import { FooterLinksComponent } from './components/footers/footer/footer-links.component';
+import { Footer1Component } from './components/footers/footer1/footer1.component';
+import { Footer1LinksComponent } from './components/footers/footer1/footer1-links.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +41,10 @@ import { DetailProductComponent } from './components/products/detail-product/det
     ProductComponent,
     ProductItemComponent,
     DetailProductComponent,
+    FooterComponent,
+    Footer1Component,
+    FooterLinksComponent,
+    Footer1LinksComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -51,6 +59,8 @@ import { DetailProductComponent } from './components/products/detail-product/det
     PlainSubscribeComponent,
     ProductComponent,
     DetailProductComponent,
+    FooterComponent,
+    Footer1Component,
   ],
 })
 export class NgtailModule {}

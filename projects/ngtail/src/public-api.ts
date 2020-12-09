@@ -14,3 +14,5 @@ export * from './lib/components/registers/email-register/email-register.componen
 export * from './lib/components/subscribes/plain-subscribe/plain-subscribe.component';
 export * from './lib/components/products/product/product.component';
 export * from './lib/components/products/detail-product/detail-product.component';
+export * from './lib/components/footers/footer/footer.component';
+export * from './lib/components/footers/footer1/footer1.component';
