@@ -21,6 +21,8 @@ import { FooterComponent } from './components/footers/footer/footer.component';
 import { FooterLinksComponent } from './components/footers/footer/footer-links.component';
 import { Footer1Component } from './components/footers/footer1/footer1.component';
 import { Footer1LinksComponent } from './components/footers/footer1/footer1-links.component';
+import { Footer2LinksComponent } from './components/footers/footer2/footer2-links.component';
+import { Footer2Component } from './components/footers/footer2/footer2.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +47,8 @@ import { Footer1LinksComponent } from './components/footers/footer1/footer1-link
     Footer1Component,
     FooterLinksComponent,
     Footer1LinksComponent,
+    Footer2Component,
+    Footer2LinksComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -61,6 +65,7 @@ import { Footer1LinksComponent } from './components/footers/footer1/footer1-link
     DetailProductComponent,
     FooterComponent,
     Footer1Component,
+    Footer2Component,
   ],
 })
 export class NgtailModule {}
