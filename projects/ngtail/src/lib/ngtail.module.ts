@@ -24,6 +24,7 @@ import { Footer1LinksComponent } from './components/footers/footer1/footer1-link
 import { Footer2LinksComponent } from './components/footers/footer2/footer2-links.component';
 import { Footer2Component } from './components/footers/footer2/footer2.component';
 import { HeaderComponent } from './components/headers/header/header.component';
+import { HeroComponent } from './components/heroes/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { HeaderComponent } from './components/headers/header/header.component';
     Footer2Component,
     Footer2LinksComponent,
     HeaderComponent,
+    HeroComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -69,6 +71,7 @@ import { HeaderComponent } from './components/headers/header/header.component';
     Footer1Component,
     Footer2Component,
     HeaderComponent,
+    HeroComponent,
   ],
 })
 export class NgtailModule {}

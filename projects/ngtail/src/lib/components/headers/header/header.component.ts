@@ -20,6 +20,7 @@ import { Component, Input } from '@angular/core';
         <a class="cursor-pointer text-white text-sm p-1 mt-4 md:mt-0">|</a>
       </div>
     </header>
+    <div class="bg-red-100 w-full h-32 md:h-12"></div>
   `,
 })
 export class HeaderComponent {
