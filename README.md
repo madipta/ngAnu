@@ -1,6 +1,7 @@
-# nganu
+# ngAnu - ngTail
 
-Angular + TailwindCSS sample application inspired by tailblocks
+Angular + TailwindCSS sample application
+
 
 ## How to run
 
@@ -8,12 +9,9 @@ Don't forget to `npm instal` or `yarn` before
 Run `ng serve` to run the project.
 
 
-
-
-
 ## License
 
-Free for good
+Free for good not for evil
 
 Copyright (c) 2020 Madipta
 
