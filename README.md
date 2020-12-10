@@ -1,4 +1,4 @@
-# ngAnu - ngTail
+# ngTail
 
 Angular + TailwindCSS sample application
 
