@@ -3,15 +3,12 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'anu-footer',
   template: `
-    <footer class="text-gray-700 body-font border-t-2 border-gray-100">
+    <footer class="bg-gray-100 text-gray-700 body-font border-t-2 border-gray-100">
       <div class="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
-        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-7 h-7 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-          </svg>
-          <span class="ml-2 text-lg">{{appName}}</span>
+        <a class="flex items-center md:justify-start justify-center text-gray-900">
+          <span class="mr-2 text-lg title-font font-medium">{{appName}}</span>
+          <span class="text-xs text-gray-500">{{copyright}}</span>
         </a>
-        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">{{copyright}}</p>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a [href]="facebookUrl" class="text-gray-500 hover:text-indigo-500">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

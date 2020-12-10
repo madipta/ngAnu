@@ -133,64 +133,64 @@ export class AppComponent {
 
   footerLinks = [
     {
-      header: 'Header #1',
+      header: 'Company',
       menus: [
         {
-          text: 'H1 Link1',
+          text: 'About Us',
           url: '#',
         },
         {
-          text: 'H1 Link2',
+          text: 'Investors',
           url: '#',
         },
         {
-          text: 'H1 Link3',
+          text: 'Offices',
           url: '#',
         },
         {
-          text: 'H1 Link4',
+          text: 'Team',
+          url: '#',
+        },
+        {
+          text: 'Careers',
           url: '#',
         },
       ],
     },
     {
-      header: 'Header #2',
+      header: 'Product',
       menus: [
         {
-          text: 'H2 Link1',
+          text: 'POS System',
           url: '#',
         },
         {
-          text: 'H2 Link2',
+          text: 'HR Software & Consulting',
           url: '#',
         },
         {
-          text: 'H2 Link3',
+          text: 'Company Campaign',
           url: '#',
         },
         {
-          text: 'H2 Link4',
+          text: 'SEO & Advertising',
           url: '#',
         },
       ],
     },
     {
-      header: 'Header #3',
+      header: 'Support',
       menus: [
         {
-          text: 'H3 Link1',
+          text: 'Community',
           url: '#',
         },
         {
-          text: 'H3 Link2',
+          text: 'Developer Center',
           url: '#',
         },
         {
-          text: 'H3 Link3',
-          url: '#',
-        },
-        {
-          text: 'H3 Link4',
+          text: 'Training',
           url: '#',
         },
       ],

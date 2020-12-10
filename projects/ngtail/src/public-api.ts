@@ -17,3 +17,4 @@ export * from './lib/components/products/detail-product/detail-product.component
 export * from './lib/components/footers/footer/footer.component';
 export * from './lib/components/footers/footer1/footer1.component';
 export * from './lib/components/footers/footer2/footer2.component';
+export * from './lib/components/headers/header/header.component';
