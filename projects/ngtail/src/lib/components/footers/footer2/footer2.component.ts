@@ -11,7 +11,7 @@ import { DataGroupMenus } from '../data-footer-links';
           class="flex flex-wrap mx-auto md:text-left text-center"
         ></anu-footer2-links>
         <div class="flex flex-col mt-6 lg:mt-0 mx-auto">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-1">SUBSCRIBE</h2>
           <div class="flex justify-center items-end">
             <div class="w-64 mr-2">
               <label for="anu-footer2-field" class="leading-7 text-sm text-gray-700">Email</label>

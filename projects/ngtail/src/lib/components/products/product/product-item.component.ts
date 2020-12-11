@@ -4,7 +4,7 @@ import { DataProduct } from '../data-product';
 @Component({
   selector: 'anu-product-item',
   template: `
-    <div class="h-full rounded-lg overflow-hidden shadow-lg">
+    <div class="h-full rounded-sm overflow-hidden shadow">
       <a class="block h-48">
         <img
           [alt]="product.title"

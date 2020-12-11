@@ -25,6 +25,9 @@ import { Footer2LinksComponent } from './components/footers/footer2/footer2-link
 import { Footer2Component } from './components/footers/footer2/footer2.component';
 import { HeaderComponent } from './components/headers/header/header.component';
 import { HeroComponent } from './components/heroes/hero/hero.component';
+import { Hero1Component } from './components/heroes/hero1/hero1.component';
+import { PricingComponent } from './components/pricings/pricing/pricing.component';
+import { PricingItemComponent } from './components/pricings/pricing/pricing-item.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +56,9 @@ import { HeroComponent } from './components/heroes/hero/hero.component';
     Footer2LinksComponent,
     HeaderComponent,
     HeroComponent,
+    Hero1Component,
+    PricingComponent,
+    PricingItemComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -72,6 +78,8 @@ import { HeroComponent } from './components/heroes/hero/hero.component';
     Footer2Component,
     HeaderComponent,
     HeroComponent,
+    Hero1Component,
+    PricingComponent,
   ],
 })
 export class NgtailModule {}

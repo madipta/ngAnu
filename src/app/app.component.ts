@@ -196,4 +196,53 @@ export class AppComponent {
       ],
     },
   ];
+
+  pricings = [
+    {
+      title: 'start',
+      price: 'Free',
+      pricePerDetail: '',
+      features: [
+        'Vexillologist pitchfork',
+        'Tumeric plaid portland',
+        'Mixtape chillwave tumeric',
+      ],
+    },
+    {
+      title: 'Pro',
+      price: '$38',
+      pricePerDetail: '/mo',
+      features: [
+        'Hexagon neutra unicorn',
+        'Vexillologist pitchfork',
+        'Tumeric plaid portland',
+        'Mixtape chillwave tumeric',
+      ],
+    },
+    {
+      title: 'Bussiness',
+      price: '$56',
+      pricePerDetail: '/mo',
+      features: [
+        'Mixtape chillwave tumeric',
+        'Hexagon neutra unicorn',
+        'Vexillologist pitchfork',
+        'Tumeric plaid portland',
+        'Mixtape chillwave tumeric',
+      ],
+    },
+    {
+      title: 'Enterprise',
+      price: '$72',
+      pricePerDetail: '/mo',
+      features: [
+        'Tumeric plaid portland',
+        'Mixtape chillwave tumeric',
+        'Hexagon neutra unicorn',
+        'Vexillologist pitchfork',
+        'Tumeric plaid portland',
+        'Mixtape chillwave tumeric',
+      ],
+    },
+  ];
 }
