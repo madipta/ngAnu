@@ -7,8 +7,8 @@ import { DataTeam } from '../data-team';
     <section class="text-gray-700 body-font my-6">
       <div class="container px-5 py-16 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-3xl font-medium title-font mb-2 text-gray-900" [innerHTML]="title"></h1>
-          <p class="lg:w-2/3 mx-auto leading-relaxed text-md" [innerHTML]="description"></p>
+          <h1 class="sm:text-3xl text-3xl text-gray-900 font-bold title-font mb-2" [innerHTML]="title"></h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-md tracking-wide" [innerHTML]="description"></p>
         </div>
         <div class="flex flex-wrap justify-center">
           <div
@@ -32,6 +32,6 @@ import { DataTeam } from '../data-team';
 })
 export class TeamComponent {
   @Input() title = 'Guilty Party';
-  @Input() description = 'Everybody is guilty until proven otherwise.';
+  @Input() description = 'Everyone is guilty until proven otherwise.';
   @Input() team: DataTeam[] = [];
 }
