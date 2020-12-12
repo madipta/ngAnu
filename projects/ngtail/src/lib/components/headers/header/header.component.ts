@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'anu-header',
   template: `
-    <header class="bg-gradient-to-b from-indigo-600 to-indigo-500 fixed top-0 left-0 right-0 text-gray-700 body-font shadow-xs z-40">
+    <header class="bg-gradient-to-b from-indigo-600 to-indigo-500 shadow-xl fixed top-0 left-0 right-0 text-gray-700 body-font shadow-xs z-40">
       <div class="container mx-auto py-2 md:px-4 flex flex-wrap flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center mb-4 md:mb-0">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">

@@ -245,4 +245,23 @@ export class AppComponent {
       ],
     },
   ];
+
+  stats = [
+    {
+      title: 'Users',
+      value: '2.7K'
+    },
+    {
+      title: 'Subscribes',
+      value: '1.8K'
+    },
+    {
+      title: 'Downloads',
+      value: '35'
+    },
+    {
+      title: 'Products',
+      value: '4'
+    },
+  ];
 }

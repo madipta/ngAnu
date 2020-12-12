@@ -4,7 +4,7 @@ import { DataPricing } from '../data-pricing';
 @Component({
   selector: 'anu-pricing-item',
   template: `
-    <div class="h-full p-6 rounded-lg border border-gray-300 mx-6 md:mx-0 flex flex-col overflow-hidden">
+    <div class="h-full bg-gradient-to-b from-transparent to-gray-100 p-6 rounded-lg border border-gray-200 mx-6 md:mx-0 flex flex-col overflow-hidden">
       <h2 class="text-sm tracking-widest title-font mb-1 font-medium uppercase mb-3">{{pricing.title}}</h2>
       <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-5 mb-6 border-b border-gray-200">
         {{pricing.price}}

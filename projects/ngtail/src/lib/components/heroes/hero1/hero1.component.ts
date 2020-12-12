@@ -54,7 +54,7 @@ export class Hero1Component {
   @Input() imgUrl = 'https://dummyimage.com/720x600';
   @Input() button = 'Subscribe';
   @Input() fieldTitle = 'Email';
-  @Input() fieldNotice = 'Neutra shabby chic ramps, viral fixie.';
+  @Input() fieldNotice = 'We will not SPAM you for any reason. We will not share your email with anyone!';
   @Input() googleplayUrl = 'https://play.google.com/store';
   @Input() appstoreUrl = 'https://www.apple.com/id/app-store/';
 }
