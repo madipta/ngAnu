@@ -23,3 +23,4 @@ export * from './lib/components/heroes/hero1/hero1.component';
 export * from './lib/components/pricings/pricing/pricing-item.component';
 export * from './lib/components/statistics/statistic/statistic.component';
 export * from './lib/components/steps/step/step.component';
+export * from './lib/components/steps/step1/step1.component';

@@ -31,6 +31,8 @@ import { PricingItemComponent } from './components/pricings/pricing/pricing-item
 import { StatisticComponent } from './components/statistics/statistic/statistic.component';
 import { StepComponent } from './components/steps/step/step.component';
 import { StepItemComponent } from './components/steps/step/step-item.component';
+import { Step1Component } from './components/steps/step1/step1.component';
+import { Step1ItemComponent } from './components/steps/step1/step1-item.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +67,8 @@ import { StepItemComponent } from './components/steps/step/step-item.component';
     StatisticComponent,
     StepComponent,
     StepItemComponent,
+    Step1Component,
+    Step1ItemComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -88,6 +92,7 @@ import { StepItemComponent } from './components/steps/step/step-item.component';
     PricingComponent,
     StatisticComponent,
     StepComponent,
+    Step1Component,
   ],
 })
 export class NgtailModule {}
