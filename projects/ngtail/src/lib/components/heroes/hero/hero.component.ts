@@ -13,10 +13,8 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
             <button class="ml-3 inline-flex text-indigo-600 tracking-wider bg-white border-0 py-2 px-6 rounded">{{button2}}</button>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full">
-          <div class="px-5 lg:px-10 lg:pt-5">
-            <img class="object-cover object-center rounded" alt="hero" [src]="imgUrl">
-          </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img class="object-cover object-center rounded border-8 border-gray-100 shadow-md" [alt]="title" [src]="imgUrl">
         </div>
       </div>
     </section>
@@ -25,8 +23,8 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 })
 export class HeroComponent {
   @Input() title = 'Angular + TailwindCSS awesome!';
-  @Input() text = 'Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.';
-  @Input() imgUrl = 'https://dummyimage.com/720x600';
+  @Input() text = 'Learn one way to build applications with Angular + TailwindCSS and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.';
+  @Input() imgUrl = 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260';
   @Input() button1 = 'Register';
   @Input() button2 = 'Sign In';
 }

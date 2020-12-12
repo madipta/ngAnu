@@ -283,4 +283,47 @@ export class AppComponent {
       description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
     },
   ];
+
+  team = [
+    {
+      name: 'Eemeli Peura',
+      position: 'Founder',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/29.jpg'
+    },
+    {
+      name: 'Iago Moreira',
+      position: 'CTO',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/21.jpg'
+    },
+    {
+      name: 'Brad Gibson',
+      position: 'UI Designer',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+    },
+    {
+      name: 'Flynn Thomas',
+      position: 'DevOps',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/20.jpg'
+    },
+    {
+      name: 'Nolhan Roussel',
+      position: 'QA Engineer',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/52.jpg'
+    },
+    {
+      name: 'Cory Ramirez',
+      position: 'Software Engineer',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/33.jpg'
+    },
+    {
+      name: 'Arron Burton',
+      position: 'System Engineer',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/34.jpg'
+    },
+    {
+      name: 'Thomas Walker',
+      position: 'UX Researcher',
+      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/57.jpg'
+    },
+  ]
 }

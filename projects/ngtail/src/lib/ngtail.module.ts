@@ -33,6 +33,7 @@ import { StepComponent } from './components/steps/step/step.component';
 import { StepItemComponent } from './components/steps/step/step-item.component';
 import { Step1Component } from './components/steps/step1/step1.component';
 import { Step1ItemComponent } from './components/steps/step1/step1-item.component';
+import { TeamComponent } from './components/teams/team/team.component';
 
 @NgModule({
   declarations: [
@@ -69,6 +70,7 @@ import { Step1ItemComponent } from './components/steps/step1/step1-item.componen
     StepItemComponent,
     Step1Component,
     Step1ItemComponent,
+    TeamComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -93,6 +95,7 @@ import { Step1ItemComponent } from './components/steps/step1/step1-item.componen
     StatisticComponent,
     StepComponent,
     Step1Component,
+    TeamComponent,
   ],
 })
 export class NgtailModule {}
