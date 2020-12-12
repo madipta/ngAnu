@@ -264,4 +264,23 @@ export class AppComponent {
       value: '4'
     },
   ];
+
+  steps = [
+    {
+      title: 'Shooting Stars',
+      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
+    },
+    {
+      title: 'The Catalyzer',
+      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
+    },
+    {
+      title: 'The 400 Blows',
+      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
+    },
+    {
+      title: 'Neptune',
+      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
+    },
+  ];
 }
