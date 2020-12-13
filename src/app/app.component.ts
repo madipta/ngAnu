@@ -305,7 +305,7 @@ export class AppComponent {
     },
     {
       name: 'Giuseppe Masseria.',
-      position: 'Joe the Boss',
+      position: 'The Oddfather',
       photoUrl: 'https://randomuser.me/api/portraits/men/82.jpg',
       description: 'Blood makes you related. Loyalty makes you family.',
     },
@@ -316,8 +316,8 @@ export class AppComponent {
       description: 'Knowledge will give you power but character will give you respect.',
     },
     {
-      name: 'Cory Ramirez',
-      position: 'The Assassins',
+      name: 'Vincent Gigante',
+      position: 'The Chin',
       photoUrl: 'https://randomuser.me/api/portraits/men/40.jpg',
       description: 'I don\'t trust words, I even question actions but I never doubt patterns',
     },
