@@ -286,44 +286,52 @@ export class AppComponent {
 
   team = [
     {
-      name: 'Eemeli Peura',
-      position: 'Founder',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/29.jpg'
+      name: 'Vincent Mangano',
+      position: 'The Executioner',
+      photoUrl: 'https://randomuser.me/api/portraits/men/21.jpg',
+      description: 'Money talks. The more money, the louder it talks.',
     },
     {
-      name: 'Iago Moreira',
-      position: 'CTO',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/21.jpg'
+      name: 'Carlo Gambino',
+      position: 'Boss of Bosses',
+      photoUrl: 'https://randomuser.me/api/portraits/men/66.jpg',
+      description: 'Everybody you fight is not your enemy and everybody that helps you is not your friend.',
     },
     {
-      name: 'Brad Gibson',
-      position: 'UI Designer',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/75.jpg'
+      name: 'Salvatore Gravano',
+      position: 'Sammy the Bull',
+      photoUrl: 'https://randomuser.me/api/portraits/men/79.jpg',
+      description: 'Don\'t ever take sides with anyone against the family.'
     },
     {
-      name: 'Flynn Thomas',
-      position: 'DevOps',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/20.jpg'
+      name: 'Giuseppe Masseria.',
+      position: 'Joe the Boss',
+      photoUrl: 'https://randomuser.me/api/portraits/men/82.jpg',
+      description: 'Blood makes you related. Loyalty makes you family.',
     },
     {
-      name: 'Nolhan Roussel',
-      position: 'QA Engineer',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/52.jpg'
+      name: 'Anthony Anastasio',
+      position: 'Tough Tony',
+      photoUrl: 'https://randomuser.me/api/portraits/men/7.jpg',
+      description: 'Knowledge will give you power but character will give you respect.',
     },
     {
       name: 'Cory Ramirez',
-      position: 'Software Engineer',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/33.jpg'
+      position: 'The Assassins',
+      photoUrl: 'https://randomuser.me/api/portraits/men/40.jpg',
+      description: 'I don\'t trust words, I even question actions but I never doubt patterns',
     },
     {
-      name: 'Arron Burton',
-      position: 'System Engineer',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/34.jpg'
+      name: 'Alessandro Vollero',
+      position: 'Lieutenant',
+      photoUrl: 'https://randomuser.me/api/portraits/men/29.jpg',
+      description: 'No one gives it to you. You have to take it.',
     },
     {
-      name: 'Thomas Walker',
-      position: 'UX Researcher',
-      photoUrl: 'https://randomuser.me/api/portraits/thumb/men/57.jpg'
+      name: 'Charlie Luciano.',
+      position: 'Lucky',
+      photoUrl: 'https://randomuser.me/api/portraits/men/71.jpg',
+      description: 'Keep your friends close and your enemy closer..',
     },
   ]
 }
