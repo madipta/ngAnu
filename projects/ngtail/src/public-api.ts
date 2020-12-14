@@ -28,3 +28,4 @@ export * from './lib/templates/teams/team/team.component';
 export * from './lib/templates/teams/team1/team1.component';
 export * from './lib/templates/teams/team2/team2.component';
 export * from './lib/templates/testimonials/testimonial/testimonial.component';
+export * from './lib/templates/testimonials/testimonial1/testimonial1.component';
