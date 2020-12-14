@@ -38,6 +38,7 @@ import { Team1Component } from './components/teams/team1/team1.component';
 import { Team1ItemComponent } from './components/teams/team1/team1-item.component';
 import { Team2Component } from './components/teams/team2/team2.component';
 import { Team2ItemComponent } from './components/teams/team2/team2-item.component';
+import { TestimonialComponent } from './components/testimonials/testimonial/testimonial.component';
 
 @NgModule({
   declarations: [
@@ -79,6 +80,7 @@ import { Team2ItemComponent } from './components/teams/team2/team2-item.componen
     Team1ItemComponent,
     Team2Component,
     Team2ItemComponent,
+    TestimonialComponent,
   ],
   imports: [CommonModule],
   exports: [
@@ -106,6 +108,7 @@ import { Team2ItemComponent } from './components/teams/team2/team2-item.componen
     TeamComponent,
     Team1Component,
     Team2Component,
+    TestimonialComponent,
   ],
 })
 export class NgtailModule {}

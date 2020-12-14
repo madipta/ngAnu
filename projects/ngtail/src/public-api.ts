@@ -27,3 +27,4 @@ export * from './lib/components/steps/step1/step1.component';
 export * from './lib/components/teams/team/team.component';
 export * from './lib/components/teams/team1/team1.component';
 export * from './lib/components/teams/team2/team2.component';
+export * from './lib/components/testimonials/testimonial/testimonial.component';

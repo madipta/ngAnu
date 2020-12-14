@@ -6,7 +6,7 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
     <section class="bg-gradient-to-b from-indigo-100 to-transparent text-lg text-gray-600 body-font">
       <div class="container mx-auto flex pt-20 pb-24 mt-6 md:flex-row flex-col items-center">
         <div class="lg:flex-grow md:w-1/2 px-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl font-bold text-gray-800 mb-4" [innerHTML]="title"></h1>
+          <h1 class="title-font sm:text-4xl text-3xl font-bold text-gray-900 mb-4" [innerHTML]="title"></h1>
           <p class="mb-8 leading-relaxed" [innerHTML]="text"></p>
           <div class="flex w-full md:justify-start justify-center items-end">
             <div class="mr-2 md:w-full lg:w-full xl:w-1/2 w-3/4">
