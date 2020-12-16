@@ -5,7 +5,7 @@ import { DataGroupMenus } from '../data-footer-links';
   selector: 'anu-footer2',
   template: `
     <footer class="text-gray-700 body-font bg-gray-200">
-      <div class="container px-5 py-8 md:py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+      <div class="max-w-screen-lg container py-8 md:py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
         <anu-footer2-links
           [groupMenus]="groupMenus"
           class="flex flex-wrap mx-auto md:text-left text-center"

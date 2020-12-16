@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'anu-footer',
   template: `
     <footer class="bg-gray-100 text-gray-700 body-font border-t-2 border-gray-100">
-      <div class="container px-5 py-3 mx-auto flex items-center sm:flex-row flex-col">
+      <div class="container px-5 py-3 max-w-screen-lg mx-auto flex items-center sm:flex-row flex-col">
         <a class="flex items-center md:justify-start justify-center text-gray-900">
           <span class="mr-2 text-lg title-font font-medium">{{appName}}</span>
           <span class="text-xs text-gray-500">{{copyright}}</span>

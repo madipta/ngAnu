@@ -5,7 +5,7 @@ import { DataArticle } from '../data-article';
   selector: 'anu-plain-article',
   template: `
     <section class="text-gray-700 body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="max-w-screen-lg container px-5 py-24 mx-auto">
         <div class="flex flex-wrap md:justify-center -m-4">
           <div class="p-4 md:w-1/{{cols}} w-full" *ngFor="let article of articles">
             <anu-plain-article-item [article]="article"></anu-plain-article-item>

@@ -4,18 +4,18 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
   selector: 'anu-hero1',
   template: `
     <section class="bg-gradient-to-b from-indigo-100 to-transparent text-lg text-gray-600 body-font">
-      <div class="container mx-auto flex pt-20 pb-24 mt-6 md:flex-row flex-col items-center">
-        <div class="lg:flex-grow md:w-1/2 px-8 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 class="title-font sm:text-4xl text-3xl font-bold text-gray-900 mb-4" [innerHTML]="title"></h1>
-          <p class="mb-8 leading-relaxed" [innerHTML]="text"></p>
-          <div class="flex w-full md:justify-start justify-center items-end">
+      <div class="max-w-screen-lg container mx-auto flex py-20 flex-col md:flex-row">
+        <div class="md:w-1/2 px-5 flex flex-col items-center md:items-start text-center md:text-left">
+          <h1 class="max-w-md title-font sm:text-4xl text-3xl font-bold text-gray-900 mb-4" [innerHTML]="title"></h1>
+          <p class="max-w-md mb-8 leading-relaxed" [innerHTML]="text"></p>
+          <div class="max-w-md flex w-full md:justify-start justify-center items-end">
             <div class="mr-2 md:w-full lg:w-full xl:w-1/2 w-3/4">
               <label for="anu-hero1-field" class="leading-7 text-sm text-gray-600">{{fieldTitle}}</label>
               <input type="text" id="anu-hero1-field" name="anu-hero1-field" class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
             </div>
-            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">{{button}}</button>
+            <button class="inline-flex text-white bg-gradient-to-b from-pink-400 to-pink-600 border-0 py-2 px-6 rounded shadow-lg">{{button}}</button>
           </div>
-          <p class="text-xs mt-2 text-gray-500 mb-10 w-full">{{fieldNotice}}</p>
+          <p class="max-w-md text-xs mt-2 text-gray-500 mb-6">{{fieldNotice}}</p>
           <div class="flex flex-row">
             <a [href]="googleplayUrl" target="_blank" class="bg-gray-200 inline-flex py-3 px-4 rounded-lg items-center mr-2 hover:bg-gray-300 focus:outline-none">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
@@ -38,8 +38,8 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
             </a>
           </div>
         </div>
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img class="object-cover object-center rounded border-8 border-gray-100 shadow-md" [alt]="title" [src]="imgUrl">
+        <div class="px-5 md:w-1/2 mt-16 md:mt-10 lg:mt-0">
+          <img class="mx-auto object-cover object-center rounded border-8 border-gray-100 shadow-md" [alt]="title" [src]="imgUrl">
         </div>
       </div>
     </section>
@@ -50,8 +50,8 @@ export class Hero1Component {
   @Input() title = 'Angular + TailwindCSS awesome!';
   @Input() text = 'Learn one way to build applications with Angular + TailwindCSS and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.';
   @Input() imgUrl = 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260';
-  @Input() button = 'Subscribe';
-  @Input() fieldTitle = 'Email';
+  @Input() button = 'Submit';
+  @Input() fieldTitle = 'Email Subcription';
   @Input() fieldNotice = 'We will not SPAM you for any reason. We will not share your email with anyone!';
   @Input() googleplayUrl = 'https://play.google.com/store';
   @Input() appstoreUrl = 'https://www.apple.com/id/app-store/';

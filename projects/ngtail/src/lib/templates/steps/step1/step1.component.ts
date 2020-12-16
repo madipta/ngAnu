@@ -5,19 +5,19 @@ import { DataStep } from '../data-step';
   selector: 'anu-step1',
   template: `
     <section class="text-gray-700 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-wrap w-full">
-          <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6 mt-2">
+      <div class="max-w-screen-lg container py-24 mx-auto">
+        <div class="flex flex-row-reverse flex-wrap w-full">
+          <div class="w-full lg:w-2/5 md:w-1/2 px-10 md:py-6 mt-2">
             <anu-step1-item
               *ngFor="let step of steps; let i = index"
               [index]="i+1"
               [step]="step"
               [length]="steps.length"
-              class="flex relative pb-12">
+              class="flex relative py-6">
             </anu-step1-item>
           </div>
           <img
-            class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-sm shadow md:mt-0 mt-12"
+            class="w-full lg:w-3/5 md:w-1/2 px-10 object-cover object-center rounded-sm mt-12 md:mt-0"
             [src]="imageUrl"
             [alt]="imageAlt">
         </div>

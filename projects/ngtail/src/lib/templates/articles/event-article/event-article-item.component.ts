@@ -4,14 +4,14 @@ import { DataEvent } from '../data-event';
 @Component({
   selector: 'anu-event-article-item',
   template: `
-    <div class="py-8 flex border-b border-gray-200 flex-wrap md:flex-no-wrap">
-      <div class="md:w-64 flex-shrink-0 flex flex-col">
-        <span class="tracking-widest font-medium title-font text-gray-900">{{
-          article.category
-        }}</span>
+    <div
+      [ngClass]="{'bg-gray-100': alternating, 'bg-white': !alternating}"
+      class="px-8 py-8 flex flex-no-wrap">
+      <div class="w-2/5 md:w-1/3 pr-12 flex-shrink-0 flex flex-col items-end">
+        <span class="mt-2 leading-none font-medium title-font text-gray-600">{{article.category}}</span>
         <span class="mt-1 text-gray-500 text-sm">{{ article.eventDate }}</span>
       </div>
-      <div class="md:flex-grow">
+      <div class="flex-grow">
         <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">
           {{ article.title }}
         </h2>
@@ -36,6 +36,7 @@ import { DataEvent } from '../data-event';
   `,
 })
 export class EventArticleItemComponent {
+  @Input() alternating = false;
   @Input() article: DataEvent;
   @Input() linkText = 'Read More';
 }

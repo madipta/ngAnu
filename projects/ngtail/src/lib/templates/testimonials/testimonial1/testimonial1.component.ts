@@ -5,7 +5,8 @@ import { DataTestimoni } from '../data-testimoni';
   selector: 'anu-testimonial1',
   template: `
     <section class="text-gray-700 body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 py-20 mx-auto">
+        <h1 class="text-3xl font-medium title-font text-gray-900 mb-12 text-center" [innerHTML]="title"></h1>
         <div class="pb-6 max-w-screen-lg mx-auto flex overflow-y-auto scroll-snap-y-mandatory">
           <div
             *ngFor="let testimoni of testimonials"
@@ -14,7 +15,7 @@ import { DataTestimoni } from '../data-testimoni';
               <img
                 [alt]="testimoni.name"
                 [src]="testimoni.photoUrl"
-                class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100">
+                class="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200">
               <p class="leading-relaxed" [innerHTML]="testimoni.quote"></p>
               <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
               <h2
@@ -29,5 +30,6 @@ import { DataTestimoni } from '../data-testimoni';
   `,
 })
 export class Testimonial1Component {
+  @Input() title = 'Testimonials';
   @Input() testimonials: DataTestimoni[] = [];
 }

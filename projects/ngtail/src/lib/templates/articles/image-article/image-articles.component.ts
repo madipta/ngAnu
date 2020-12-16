@@ -5,8 +5,8 @@ import { DataArticle } from '../data-article';
   selector: 'anu-image-article',
   template: `
     <section class="text-gray-700 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap justify-center -m-4">
+      <div class="max-w-screen-lg container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap">
           <div class="p-4 sm:w-1/2 md:w-1/{{ cols }}" *ngFor="let article of articles">
             <anu-image-article-item
               [article]="article"
