@@ -2,6 +2,7 @@
 
 Angular + TailwindCSS sample application
 
+for this sample application I am using data / images from https://www.pexels.com and https://randomuser.me/
 
 ## How to run
 
