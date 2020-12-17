@@ -45,8 +45,17 @@ export class BlogComponent {
       description:
         'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
     },
+    {
+      category: 'Movies',
+      title: 'Harry Potter',
+      imageUrl: 'https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      views: '4.1K',
+      comments: '66',
+      description:
+        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
+    },
   ];
-
+  
   events = [
     {
       category: 'Movies',

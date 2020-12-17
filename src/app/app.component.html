@@ -1,30 +1,42 @@
 <anu-header>
-  <svg anu-header-icon xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-  </svg>
+  <ng-container anu-header-icon>
+    <svg 
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      stroke="currentColor"
+      stroke-linecap="round" 
+      stroke-linejoin="round"
+      stroke-width="2" 
+      class="w-8 h-8 text-gray-200 p-2 bg-gray-700 rounded-full"
+      viewBox="0 0 24 24"
+      >
+      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+    </svg>
+    <span class="ml-2 tracking-wide text-gray-500 text-xl">{{appName}}</span>
+  </ng-container>
   <ng-container anu-header-menu>
     <a
       routerLink="/"
       routerLinkActive="active"
-      class="cursor-pointer text-gray-100 hover:text-indigo-300 mx-3"
+      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
       >Home</a
     >
     <a
       routerLink="products"
       routerLinkActive="active"
-      class="cursor-pointer text-gray-100 hover:text-indigo-300 mx-3"
+      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
       >Products</a
     >
     <a
       routerLink="team"
       routerLinkActive="active"
-      class="cursor-pointer text-gray-100 hover:text-indigo-300 mx-3"
+      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
       >Team</a
     >
     <a
       routerLink="blog"
       routerLinkActive="active"
-      class="cursor-pointer text-gray-100 hover:text-indigo-300 mx-3"
+      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
       >Blog</a
     >
   </ng-container>

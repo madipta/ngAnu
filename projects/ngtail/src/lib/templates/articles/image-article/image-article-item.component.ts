@@ -23,7 +23,7 @@ import { DataArticle } from '../data-article';
         </div>
         <h1 class="title-font text-2xl font-medium text-gray-600 leading-none mb-2">{{article.title}}</h1>
         <p class="leading-relaxed text-sm mb-8">{{article.description}}</p>
-        <a class="absolute bottom-0 right-0 mb-2 mr-4 cursor-pointer font-medium text-sm text-gray-400 hover:text-pink-500">{{linkText}}</a>
+        <a class="absolute bottom-0 right-0 px-2 py-1 mb-2 mr-3 cursor-pointer font-medium text-sm text-indigo-500 hover:text-pink-500">{{linkText}}</a>
       </div>
     </div>
   `,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,131 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  articles = [
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      imageUrl: 'https://dummyimage.com/720x400',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      imageUrl: 'https://dummyimage.com/720x400',
-      description: 'Psriracha leggings jianbing microdosing.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      imageUrl: 'https://dummyimage.com/720x400',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-  ];
-  plains = [
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      imageUrl: 'https://dummyimage.com/720x400',
-      description: 'Psriracha leggings jianbing microdosing.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      imageUrl: 'https://dummyimage.com/720x400',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-  ];
-  events = [
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      eventDate: '12 Jun 2019',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      eventDate: '12 Jun 2019',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      eventDate: '12 Jun 2019',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-    {
-      category: 'Movies',
-      title: 'Harry Potter',
-      eventDate: '12 Jun 2019',
-      description:
-        'Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.',
-    },
-  ];
-  products = [
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      description: `Fam locavore kickstarter distillery. 
-      Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY.
-      XOXO fam indxgo juiceramps cornhole raw denim forage brooklyn.
-      Everyday carry +1 seitan poutine tumeric.
-      Gastropub blue bottle austin listicle pour-over,
-      neutra jean shorts keytar banjo tattooed umami cardigan.`,
-      price: '$16.00',
-      reviews: 4,
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer Dummy Product',
-      price: '$16.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      price: '$16.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      price: '$16.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer Dummy Product',
-      price: '$16.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      price: '$18.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      price: '$18.00',
-    },
-    {
-      imageUrl: 'https://dummyimage.com/420x260',
-      category: 'Shampoo',
-      title: 'The Catalyzer',
-      price: '$18.00',
-    },
-  ];
-
+  @Input() appName = 'ngTail';
+  
   footerLinks = [
     {
       header: 'Company',
@@ -197,93 +74,6 @@ export class AppComponent {
     },
   ];
 
-  pricings = [
-    {
-      title: 'start',
-      price: 'Free',
-      pricePerDetail: '',
-      features: [
-        'Vexillologist pitchfork',
-        'Tumeric plaid portland',
-        'Mixtape chillwave tumeric',
-      ],
-    },
-    {
-      title: 'Pro',
-      price: '$38',
-      pricePerDetail: '/mo',
-      features: [
-        'Hexagon neutra unicorn',
-        'Vexillologist pitchfork',
-        'Tumeric plaid portland',
-        'Mixtape chillwave tumeric',
-      ],
-    },
-    {
-      title: 'Bussiness',
-      price: '$56',
-      pricePerDetail: '/mo',
-      features: [
-        'Mixtape chillwave tumeric',
-        'Hexagon neutra unicorn',
-        'Vexillologist pitchfork',
-        'Tumeric plaid portland',
-        'Mixtape chillwave tumeric',
-      ],
-    },
-    {
-      title: 'Enterprise',
-      price: '$72',
-      pricePerDetail: '/mo',
-      features: [
-        'Tumeric plaid portland',
-        'Mixtape chillwave tumeric',
-        'Hexagon neutra unicorn',
-        'Vexillologist pitchfork',
-        'Tumeric plaid portland',
-        'Mixtape chillwave tumeric',
-      ],
-    },
-  ];
-
-  stats = [
-    {
-      title: 'Users',
-      value: '2.7K'
-    },
-    {
-      title: 'Subscribes',
-      value: '1.8K'
-    },
-    {
-      title: 'Downloads',
-      value: '35'
-    },
-    {
-      title: 'Products',
-      value: '4'
-    },
-  ];
-
-  steps = [
-    {
-      title: 'Shooting Stars',
-      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
-    },
-    {
-      title: 'The Catalyzer',
-      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
-    },
-    {
-      title: 'The 400 Blows',
-      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
-    },
-    {
-      title: 'Neptune',
-      description: 'VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.'
-    },
-  ];
-
   team = [
     {
       name: 'Vincent Mangano',
@@ -332,31 +122,6 @@ export class AppComponent {
       position: 'Lucky',
       photoUrl: 'https://randomuser.me/api/portraits/men/71.jpg',
       description: 'Keep your friends close and your enemy closer..',
-    },
-  ];
-
-  testimonials = [
-    {
-      name: 'Unknown',
-      position: 'Burned Down',
-      quote: `<p>Never build any relationship with someone
-      based on Chemistry... Only for it to be torn
-      down later by lack of Character.</p>`,
-      photoUrl: 'https://randomuser.me/api/portraits/men/2.jpg',
-    },
-    {
-      name: 'Blondie',
-      position: 'Single Parent',
-      quote: `<p>They made me an offer I couldn't resits,
-      My mom was right, I won't be happy until someone loses an eye.</p>`,
-      photoUrl: 'https://randomuser.me/api/portraits/men/3.jpg',
-    },
-    {
-      name: 'Anonymous',
-      position: 'Underground',
-      quote: `Everyone shows their true identity,
-      in time just observe with keen silence &amp; precise wits.`,
-      photoUrl: 'https://randomuser.me/api/portraits/men/4.jpg',
     },
   ];
 }

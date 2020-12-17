@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
     <anu-hero></anu-hero>
     <anu-step1 [steps]="steps"></anu-step1>
     <anu-statistic [stats]="stats"></anu-statistic>
+    <anu-pricing [pricings]="pricings"></anu-pricing>
     <anu-testimonial [testimonials]="testimonials"></anu-testimonial>
   `,
 })
@@ -46,6 +47,60 @@ export class HomeComponent {
     {
       title: 'Products',
       value: '4'
+    },
+  ];
+
+  pricings = [
+    {
+      title: 'start',
+      price: 'Free',
+      pricePerDetail: '',
+      features: [
+        'Marketing CRM ',
+        'Creative Assistant',
+        'Website Builder',
+        'Mailchimp Domain',
+        'Forms & Landing Pages '
+      ],
+    },
+    {
+      title: 'Pro',
+      price: '$38',
+      pricePerDetail: '/mo',
+      features: [
+        'Everything in Free',
+        'All Email Templates',
+        'Multi-Step Journeys',
+        'Custom Branding',
+        'A/B Testing',
+        '24/7 Email & Chat Support'
+      ],
+    },
+    {
+      title: 'Bussiness',
+      price: '$56',
+      pricePerDetail: '/mo',
+      features: [
+        'Everything in Pro',
+        'Customer Journey Builder + Branching Points',
+        'Send Time Optimization',
+        'Behavioral Targeting',
+        'Custom Templates',
+        'Dynamic Content'
+      ],
+    },
+    {
+      title: 'Enterprise',
+      price: '$299',
+      pricePerDetail: '/mo',
+      features: [
+        'Everything in Bussiness',
+        'Advanced Segmentation',
+        'Multivariate Testing',
+        'Comparative Reporting',
+        'Unlimited Seats & Role-Based Access',
+        'Phone Support'
+      ],
     },
   ];
 
