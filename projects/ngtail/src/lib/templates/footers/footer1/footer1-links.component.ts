@@ -4,7 +4,7 @@ import { DataGroupMenus } from '../data-footer-links';
 @Component({
   selector: 'anu-footer1-links',
   template: `
-    <div class="md:w-auto w-full md:px-6 lg:px-12" *ngFor="let groupMenu of groupMenus">
+    <div class="w-full md:w-auto md:px-6 lg:px-12" *ngFor="let groupMenu of groupMenus">
       <h2 class="font-medium text-gray-900 tracking-widest text-sm mb-3">{{groupMenu.header}}</h2>
       <ul class="mb-10">
         <li *ngFor="let item of groupMenu.menus">

@@ -7,6 +7,7 @@ import { DataProduct } from '../data-product';
     <div class="h-full rounded-sm overflow-hidden shadow">
       <a class="block h-48">
         <img
+          loading="lazy"
           [alt]="product.title"
           class="object-cover object-center w-full h-full block"
           [src]="product.imageUrl"

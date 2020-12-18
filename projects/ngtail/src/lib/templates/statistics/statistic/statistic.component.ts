@@ -22,6 +22,7 @@ import { Component, Input } from '@angular/core';
           <img
             [src]="imageUrl"
             [alt]="title"
+            loading="lazy"
             class="border-8 border-white rounded object-cover object-center w-full h-full">
         </div>
       </div>

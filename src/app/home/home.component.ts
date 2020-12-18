@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
     <anu-statistic [stats]="stats"></anu-statistic>
     <anu-pricing [pricings]="pricings"></anu-pricing>
     <anu-testimonial [testimonials]="testimonials"></anu-testimonial>
+    <anu-testimonial1 [testimonials]="testimonials"></anu-testimonial1>
   `,
 })
 export class HomeComponent {

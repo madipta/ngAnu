@@ -5,7 +5,11 @@ import { DataArticle } from '../data-article';
   selector: 'anu-image-article-item',
   template: `
     <div class="transform hover:-rotate-1 relative h-full rounded-lg overflow-hidden shadow-lg hover:shadow-2xl">
-      <img class="lg:h-48 md:h-36 w-full object-cover object-center" [src]="article.imageUrl" [alt]="article.title">
+      <img
+        [src]="article.imageUrl"
+        [alt]="article.title"
+        loading="lazy"
+        class="lg:h-48 md:h-36 w-full object-cover object-center">
       <div class="px-5 pb-8 pt-4">
         <div class="flex items-center flex-wrap text-gray-400 text-xs mb-2">
           <a class="bg-gray-500 px-4 py-1 text-xs text-white leaading-none tracking-widest font-medium uppercase">{{article.category}}</a>

@@ -29,7 +29,7 @@ export class TeamComponent {
       description: 'Don\'t ever take sides with anyone against the family.'
     },
     {
-      name: 'Giuseppe Masseria.',
+      name: 'Giuseppe Masseria',
       position: 'The Oddfather',
       photoUrl: 'https://randomuser.me/api/portraits/men/82.jpg',
       description: 'Blood makes you related. Loyalty makes you family.',
@@ -53,7 +53,7 @@ export class TeamComponent {
       description: 'No one gives it to you. You have to take it.',
     },
     {
-      name: 'Charlie Luciano.',
+      name: 'Charlie Luciano',
       position: 'Lucky',
       photoUrl: 'https://randomuser.me/api/portraits/men/71.jpg',
       description: 'Keep your friends close and your enemy closer..',
