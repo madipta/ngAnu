@@ -9,11 +9,11 @@ import { DataTeam } from '../data-team';
         <h1 class="text-3xl font-semibold text-gray-900 mb-2" [innerHTML]="title"></h1>
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base" [innerHTML]="description"></p>
       </div>
-      <div class="flex flex-wrap max-w-screen-xl mx-auto">
+      <div class="flex flex-wrap mx-auto">
         <anu-team2-item
           *ngFor="let member of team;"
           [member]="member"
-          class="p-4 w-full lg:w-1/2 my-4"></anu-team2-item>
+          class="w-full lg:w-1/2"></anu-team2-item>
       </div>
     </section>
   `,

@@ -5,7 +5,7 @@ import { DataTeam } from '../data-team';
   selector: 'anu-team1-item',
   template: `
     <div class="h-full flex flex-col items-center text-center">
-      <img [alt]="member.name" class="flex-shrink-0 rounded w-48 h-48 border-8 border-white rounded shadow-lg object-cover object-center mb-4" [src]="member.photoUrl">
+      <img [alt]="member.name" class="flex-shrink-0 rounded w-40 h-40 border-8 border-white rounded shadow-lg object-cover object-center mb-4" [src]="member.photoUrl">
       <div class="w-full">
         <h2 class="font-medium text-xl text-gray-900" [innerHTML]="member.name"></h2>
         <h3 class="text-xs text-gray-500 mb-3" [innerHTML]="member.position"></h3>

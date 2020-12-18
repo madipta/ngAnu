@@ -4,13 +4,13 @@ import { DataTeam } from '../data-team';
 @Component({
   selector: 'anu-team2-item',
   template: `
-    <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start text-center sm:text-left">
+    <div class="h-full flex flex-row justify-center m-4">
       <img
         [src]="member.photoUrl"
         [alt]="member.name"
-        class="flex-shrink-0 w-48 h-48 border-8 border-white rounded shadow-lg object-cover object-center">
-      <div class="flex-grow sm:pl-6 mt-2 md:mt-0">
-        <h2 [innerHTML]="member.name" class="font-medium text-2xl text-gray-900"></h2>
+        class="flex-shrink-0 w-52 h-52 border-8 border-white rounded shadow-lg mx-2 object-cover object-center">
+      <div class="flex-grow max-w-sm mx-2">
+        <h2 [innerHTML]="member.name" class="font-medium text-2xl text-gray-900 mt-2"></h2>
         <h3 [innerHTML]="member.position" class="text-xs text-gray-500 mb-3"></h3>
         <p [innerHTML]="member.description" class="mb-5"></p>
         <span class="inline-flex">

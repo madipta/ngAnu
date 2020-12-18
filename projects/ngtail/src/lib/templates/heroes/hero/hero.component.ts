@@ -3,14 +3,14 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'anu-hero',
   template: `
-    <section class="bg-gradient-to-b from-indigo-100 to-transparent text-lg text-gray-600">
+    <section class="bg-gradient-to-b from-indigo-100 to-transparent text-gray-600">
       <div class="max-w-screen-lg mx-auto flex py-24 flex-col md:flex-row">
         <div class="mb-12 md:mb-0 md:w-1/2 px-5 flex flex-col items-center md:items-start text-center md:text-left">
           <h1 class="max-w-md sm:text-4xl text-3xl font-bold text-gray-800 mb-4" [innerHTML]="title"></h1>
-          <p class="max-w-md mb-8 leading-relaxed" [innerHTML]="text"></p>
-          <div class="flex w-full justify-center md:justify-end">
-            <button class="font-semibold tracking-wider text-indigo-500 bg-gradient-to-b from-white to-gray-200 shadow-lg py-3 px-8 rounded mr-4">{{button1}}</button>
-            <button class="font-semibold tracking-wider text-white bg-gradient-to-b from-pink-400 to-pink-600 shadow-lg py-3 px-8 rounded">{{button2}}</button>
+          <p class="max-w-md mb-8 text-lg leading-relaxed" [innerHTML]="text"></p>
+          <div class="max-w-md flex w-full justify-center md:justify-end">
+            <button class="font-semibold tracking-wide text-indigo-500 bg-gradient-to-b from-white to-gray-200 shadow-lg py-3 px-8 rounded mr-4">{{button1}}</button>
+            <button class="font-semibold tracking-wide text-white bg-gradient-to-b from-pink-400 to-pink-600 shadow-lg py-3 px-8 rounded">{{button2}}</button>
           </div>
         </div>
         <div class="px-5 md:w-1/2">
