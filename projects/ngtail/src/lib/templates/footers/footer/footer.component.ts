@@ -3,10 +3,10 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'anu-footer',
   template: `
-    <footer class="bg-gray-100 text-gray-700 body-font border-t-2 border-gray-100">
-      <div class="container px-5 py-3 max-w-screen-lg mx-auto flex items-center sm:flex-row flex-col">
+    <footer class="bg-gray-100 text-gray-700 border-t-2 border-gray-100">
+      <div class="max-w-screen-lg mx-auto px-5 py-3 flex items-center sm:flex-row flex-col">
         <a class="flex items-center md:justify-start justify-center text-gray-900">
-          <span class="mr-2 text-lg title-font font-medium">{{appName}}</span>
+          <span class="mr-2 text-lg font-medium">{{appName}}</span>
           <span class="text-xs text-gray-500">{{copyright}}</span>
         </a>
         <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

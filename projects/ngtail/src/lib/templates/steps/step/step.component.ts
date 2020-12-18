@@ -4,7 +4,7 @@ import { DataStep } from '../data-step';
 @Component({
   selector: 'anu-step',
   template: `
-    <section class="text-gray-700 body-font">
+    <section class="text-gray-700">
       <div class="container px-8 py-24 mx-auto flex flex-wrap">
         <anu-step-item
           *ngFor="let step of steps; let i = index"

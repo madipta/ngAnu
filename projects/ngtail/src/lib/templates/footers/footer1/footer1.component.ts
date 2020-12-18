@@ -4,10 +4,10 @@ import { DataGroupMenus } from '../data-footer-links';
 @Component({
   selector: 'anu-footer1',
   template: `
-    <footer class="text-gray-700 body-font">
+    <footer class="text-gray-700">
       <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
         <div class="flex-grow text-center md:text-left">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a class="flex font-medium items-center md:justify-start justify-center text-gray-900">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

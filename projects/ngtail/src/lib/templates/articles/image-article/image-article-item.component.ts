@@ -6,9 +6,9 @@ import { DataArticle } from '../data-article';
   template: `
     <div class="transform hover:-rotate-1 relative h-full rounded-lg overflow-hidden shadow-lg hover:shadow-2xl">
       <img class="lg:h-48 md:h-36 w-full object-cover object-center" [src]="article.imageUrl" [alt]="article.title">
-      <div class="px-5 pb-8 pt-2">
-        <div class="flex items-center flex-wrap text-gray-400 text-xs mb-4">
-          <h2 class="tracking-widest title-font font-medium uppercase">{{article.category}}</h2>
+      <div class="px-5 pb-8 pt-4">
+        <div class="flex items-center flex-wrap text-gray-400 text-xs mb-2">
+          <a class="bg-gray-500 px-4 py-1 text-xs text-white leaading-none tracking-widest font-medium uppercase">{{article.category}}</a>
           <span class="inline-flex items-center ml-auto leading-none pr-2 py-1 border-r-2 border-gray-100">
             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -21,9 +21,9 @@ import { DataArticle } from '../data-article';
             </svg>{{article.comments}}
           </span>
         </div>
-        <h1 class="title-font text-2xl font-medium text-gray-600 leading-none mb-2">{{article.title}}</h1>
+        <h1 class="text-3xl text-gray-900 leading-none mb-3">{{article.title}}</h1>
         <p class="leading-relaxed text-sm mb-8">{{article.description}}</p>
-        <a class="absolute bottom-0 right-0 px-2 py-1 mb-2 mr-3 cursor-pointer font-medium text-sm text-indigo-500 hover:text-pink-500">{{linkText}}</a>
+        <a class="absolute bottom-0 right-0 px-4 py-1 mb-4 mr-4 cursor-pointer uppercase text-xs text-gray-500 hover:text-pink-500 border-2 border-gray-700">{{linkText}}</a>
       </div>
     </div>
   `,

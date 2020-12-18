@@ -4,8 +4,8 @@ import { DataPricing } from '../data-pricing';
 @Component({
   selector: 'anu-pricing',
   template: `
-    <section class="bg-gradient-to-b from-transparent via-gray-100 to-transparent body-font overflow-hidden">
-      <div class="max-w-screen-xl container px-5 py-24 mx-auto">
+    <section class="bg-gradient-to-b from-transparent via-gray-100 to-transparent overflow-hidden">
+      <div class="max-w-screen-xl px-5 py-24 mx-auto">
         <div class="flex flex-wrap justify-center">
           <anu-pricing-item
             *ngFor="let pricing of pricings"

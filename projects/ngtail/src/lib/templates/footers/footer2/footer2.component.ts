@@ -4,14 +4,14 @@ import { DataGroupMenus } from '../data-footer-links';
 @Component({
   selector: 'anu-footer2',
   template: `
-    <footer class="text-gray-700 body-font bg-gray-200">
+    <footer class="text-gray-700 bg-gray-200">
       <div class="max-w-screen-lg container py-8 md:py-16 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
         <anu-footer2-links
           [groupMenus]="groupMenus"
           class="flex flex-wrap mx-auto md:text-left text-center"
         ></anu-footer2-links>
         <div class="flex flex-col mt-6 lg:mt-0 mx-auto">
-          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-1">SUBSCRIBE</h2>
+          <h2 class="font-medium text-gray-900 tracking-widest text-sm mb-1">SUBSCRIBE</h2>
           <div class="flex justify-center items-end">
             <div class="w-64 mr-2">
               <label for="anu-footer2-field" class="leading-7 text-sm text-gray-700">Email</label>

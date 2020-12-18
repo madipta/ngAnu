@@ -5,8 +5,8 @@ import { DataArticle } from '../data-article';
   selector: 'anu-plain-article-item',
   template: `
     <div class="relative h-full pb-12 overflow-hidden">
-      <h1 class="tracking-widest text-xs title-font font-medium text-gray-400 uppercase">{{article.category}}</h1>
-      <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-800 mb-4">{{article.title}}</h2>
+      <h1 class="tracking-widest text-xs font-medium text-gray-400 uppercase">{{article.category}}</h1>
+      <h2 class="sm:text-3xl text-2xl font-medium text-gray-800 mb-4">{{article.title}}</h2>
       <p class="leading-relaxed mb-8">{{article.description}}</p>
       <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto absolute bottom-0 left-0 w-full ">
         <a class="cursor-pointer py-2 px-5 text-xs text-white bg-indigo-500 inline-block rounded">{{linkText}}</a>

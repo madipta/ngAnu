@@ -3,10 +3,10 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'anu-plain-feedback',
   template: `
-    <section class="text-gray-700 body-font relative">
+    <section class="text-gray-700 relative">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" [innerHtml]="caption"></h1>
+          <h1 class="sm:text-3xl text-2xl font-medium mb-4 text-gray-900" [innerHtml]="caption"></h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base" [innerHtml]="description"></p>
         </div>
         <div class="lg:w-1/2 md:w-2/3 mx-auto">

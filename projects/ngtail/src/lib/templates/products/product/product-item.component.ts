@@ -13,10 +13,10 @@ import { DataProduct } from '../data-product';
         />
       </a>
       <div class="p-4 overflow-hidden">
-        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+        <h3 class="text-gray-500 text-xs tracking-widest mb-1">
           {{ product.category }}
         </h3>
-        <h2 class="text-gray-900 title-font text-lg leading-tight font-medium">
+        <h2 class="text-gray-900 text-lg leading-tight font-medium">
           {{ product.title }}
         </h2>
         <p class="mt-3">{{ product.price }}</p>

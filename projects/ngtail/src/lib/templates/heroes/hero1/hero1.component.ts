@@ -3,10 +3,10 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'anu-hero1',
   template: `
-    <section class="bg-gradient-to-b from-indigo-100 to-transparent text-lg text-gray-600 body-font">
-      <div class="max-w-screen-lg container mx-auto flex py-20 flex-col md:flex-row">
+    <section class="bg-gradient-to-b from-indigo-100 to-transparent text-lg text-gray-600">
+      <div class="max-w-screen-lg mx-auto flex py-24 flex-col md:flex-row">
         <div class="md:w-1/2 px-5 flex flex-col items-center md:items-start text-center md:text-left">
-          <h1 class="max-w-md title-font sm:text-4xl text-3xl font-bold text-gray-900 mb-4" [innerHTML]="title"></h1>
+          <h1 class="max-w-md sm:text-4xl text-3xl font-bold text-gray-900 mb-4" [innerHTML]="title"></h1>
           <p class="max-w-md mb-8 leading-relaxed" [innerHTML]="text"></p>
           <div class="max-w-md flex w-full md:justify-start justify-center items-end">
             <div class="mr-2 md:w-full lg:w-full xl:w-1/2 w-3/4">
@@ -23,7 +23,7 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
               </svg>
               <span class="ml-3 flex items-start flex-col">
                 <span class="leading-none text-xs text-gray-600 mb-1">GET IT ON</span>
-                <span class="leading-none text-xs title-font font-bold">Google Play</span>
+                <span class="leading-none text-xs font-bold">Google Play</span>
               </span>
             </a>
             <a [href]="appstoreUrl" target="_blank" class="bg-gray-200 inline-flex py-3 px-4 rounded-lg items-center hover:bg-gray-300 focus:outline-none">
@@ -33,7 +33,7 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
               </svg>
               <span class="ml-3 flex items-start flex-col">
                 <span class="leading-none text-xs text-gray-600 mb-1">Download on the</span>
-                <span class="leading-none text-xs title-font font-bold">App Store</span>
+                <span class="leading-none text-xs font-bold">App Store</span>
               </span>
             </a>
           </div>

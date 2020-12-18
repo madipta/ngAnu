@@ -4,8 +4,8 @@ import { DataStep } from '../data-step';
 @Component({
   selector: 'anu-step1',
   template: `
-    <section class="text-gray-700 body-font">
-      <div class="max-w-screen-lg container py-24 mx-auto">
+    <section class="text-gray-700">
+      <div class="max-w-screen-lg py-24 mx-auto">
         <div class="flex flex-row-reverse flex-wrap w-full">
           <div class="w-full lg:w-2/5 md:w-1/2 px-10 md:py-6 mt-2">
             <anu-step1-item

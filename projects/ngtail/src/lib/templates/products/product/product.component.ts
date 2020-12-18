@@ -4,7 +4,7 @@ import { DataProduct } from '../data-product';
 @Component({
   selector: 'anu-product',
   template: `
-    <section class="text-gray-700 body-font">
+    <section class="text-gray-700">
       <div class="container py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
         <anu-product-item

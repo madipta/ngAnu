@@ -4,13 +4,13 @@ import { DataProduct } from '../data-product';
 @Component({
   selector: 'anu-detail-product',
   template: `
-    <section class="text-gray-700 body-font overflow-hidden">
+    <section class="text-gray-700 overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
           <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
           <div class="lg:w-1/2 w-full px-2 lg:pl-10 mt-6 lg:mt-2">
-            <h2 class="text-sm title-font text-gray-400 tracking-widest uppercase">{{product.category}}</h2>
-            <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">{{product.title}}</h1>
+            <h2 class="text-sm text-gray-400 tracking-widest uppercase">{{product.category}}</h2>
+            <h1 class="text-gray-900 text-3xl font-medium mb-1">{{product.title}}</h1>
             <div class="flex mb-4">
               <span class="flex items-center">
                 <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ import { DataProduct } from '../data-product';
             </div>
             <p class="leading-relaxed" [innerHTML]="product.description"></p>
             <div class="flex mt-8">
-              <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
+              <span class="font-medium text-2xl text-gray-900">$58.00</span>
               <button class="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Add to cart</button>
               <button class="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
