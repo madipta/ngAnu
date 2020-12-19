@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
     <section class="text-gray-700 relative">
       <div class="container px-5 py-24 mx-auto sm:flex sm:flex-wrap">
         <div class="lg:w-2/3 md:w-1/2 w-full bg-gray-300 rounded-lg overflow-hidden p-10 flex items-end justify-start relative">
-          <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+          <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" [src]="mapUrl | safe" style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
           <div class="bg-white text-xs relative flex flex-wrap py-4 rounded shadow-lg">
             <div class="lg:w-1/2 px-6">
               <h2 class=" font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
@@ -46,6 +46,7 @@ export class EleganFeedbackComponent {
   @Input() caption = 'Contact Us';
   @Input() description = 'We\'d love to hear from you!';
   @Input() email = 'example@email.com';
+  @Input() mapUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126937.01234708032!2d106.68704723190385!3d-6.159993333319329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f7c9d110d719%3A0x300c5e82dd4b8a0!2sWest%20Jakarta%2C%20Kebonjeruk%2C%20West%20Jakarta%20City%2C%20Jakarta!5e0!3m2!1sen!2sid!4v1607352165841!5m2!1sen!2sid';
   @Input() address = '49 Smith St. <br>Jakarta Barat, 12321';
   @Input() phone = '0888-999-000';
   @Input() notice = '';

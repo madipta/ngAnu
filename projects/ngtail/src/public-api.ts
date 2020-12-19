@@ -11,6 +11,7 @@ export * from './lib/templates/feedbacks/simple-feedback/simple-feedback.compone
 export * from './lib/templates/feedbacks/plain-feedback/plain-feedback.component';
 export * from './lib/templates/feedbacks/elegan-feedback/elegan-feedback.component';
 export * from './lib/templates/registers/email-register/email-register.component';
+export * from './lib/templates/logins/email-login/email-login.component';
 export * from './lib/templates/subscribes/plain-subscribe/plain-subscribe.component';
 export * from './lib/templates/products/product/product.component';
 export * from './lib/templates/products/detail-product/detail-product.component';

@@ -40,6 +40,7 @@ import { Team2Component } from './templates/teams/team2/team2.component';
 import { Team2ItemComponent } from './templates/teams/team2/team2-item.component';
 import { TestimonialComponent } from './templates/testimonials/testimonial/testimonial.component';
 import { Testimonial1Component } from './templates/testimonials/testimonial1/testimonial1.component';
+import { EmailLoginComponent } from './templates/logins/email-login/email-login.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { Testimonial1Component } from './templates/testimonials/testimonial1/tes
     PlainFeedbackComponent,
     EleganFeedbackComponent,
     EmailRegisterComponent,
+    EmailLoginComponent,
     PlainSubscribeComponent,
     ProductComponent,
     ProductItemComponent,
@@ -94,6 +96,7 @@ import { Testimonial1Component } from './templates/testimonials/testimonial1/tes
     PlainFeedbackComponent,
     EleganFeedbackComponent,
     EmailRegisterComponent,
+    EmailLoginComponent,
     PlainSubscribeComponent,
     ProductComponent,
     DetailProductComponent,

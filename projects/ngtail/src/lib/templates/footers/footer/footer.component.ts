@@ -39,7 +39,7 @@ import { Component, Input } from '@angular/core';
 })
 export class FooterComponent {
   @Input() appName = 'ngTail';
-  @Input() copyright = '© 2020 by ngAnu';
+  @Input() copyright = '© 2020 by Madipta';
   @Input() facebookUrl = 'https://facebook.com';
   @Input() twitterUrl = 'https://twitter.com';
   @Input() instagramUrl = 'https://instagram.com';

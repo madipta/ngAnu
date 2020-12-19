@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   template: `
-    <anu-hero></anu-hero>
+    <anu-hero (onLogin)="onLogin()" (onRegister)="onRegister()"></anu-hero>
     <anu-step1 [steps]="steps"></anu-step1>
     <anu-statistic [stats]="stats"></anu-statistic>
     <anu-pricing [pricings]="pricings"></anu-pricing>
@@ -12,6 +13,16 @@ import { Component } from '@angular/core';
   `,
 })
 export class HomeComponent {
+
+  constructor(private router: Router) {}
+
+  onLogin() {
+    this.router.navigate(['login']);
+  }
+
+  onRegister() {
+    this.router.navigate(['register']);
+  }
 
   steps = [
     {

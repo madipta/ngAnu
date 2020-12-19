@@ -42,7 +42,7 @@ import { DataGroupMenus } from '../data-footer-links';
 export class Footer2Component {
   @Input() appName = 'ngTail';
   @Input() appDescription = 'Angular + TailwindCSS sample application';
-  @Input() copyright = '© 2020 by ngAnu';
+  @Input() copyright = '© 2020 by Madipta';
   @Input() groupMenus: DataGroupMenus[] = [];
   @Input() facebookUrl = 'https://facebook.com';
   @Input() twitterUrl = 'https://twitter.com';
