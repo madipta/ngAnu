@@ -16,34 +16,11 @@
   </ng-container>
   <ng-container anu-header-menu>
     <a
-      routerLink="/"
+      *ngFor="let menu of menuLinks"
+      [routerLink]="menu.link"
       routerLinkActive="active"
       class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
-      >Home</a
-    >
-    <a
-      routerLink="products"
-      routerLinkActive="active"
-      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
-      >Products</a
-    >
-    <a
-      routerLink="team"
-      routerLinkActive="active"
-      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
-      >Team</a
-    >
-    <a
-      routerLink="blog"
-      routerLinkActive="active"
-      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
-      >Blog</a
-    >
-    <a
-      routerLink="feedback"
-      routerLinkActive="active"
-      class="cursor-pointer tracking-wide font-medium text-sm text-gray-800 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
-      >Contact Us</a
+      >{{menu.text}}</a
     >
   </ng-container>
 </anu-header>
