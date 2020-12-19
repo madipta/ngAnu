@@ -14,7 +14,7 @@ import { DataPricing } from '../data-pricing';
         <li
           *ngFor="let feature of pricing.features"
           class="w-auto md:w-64 px-4 py-2 flex items-center">
-          <span class="w-5 h-5 inline-flex items-center justify-center bg-gray-300 text-white rounded-full flex-shrink-0">
+          <span class="w-4 h-4 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
               <path d="M20 6L9 17l-5-5"></path>
             </svg>
