@@ -49,7 +49,7 @@ import { Component, Input, ViewEncapsulation } from '@angular/core';
 export class Hero1Component {
   @Input() title = 'Angular + TailwindCSS awesome!';
   @Input() text = 'Learn one way to build applications with Angular + TailwindCSS and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.';
-  @Input() imgUrl = 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260';
+  @Input() imgUrl = '/assets/img/pexels-photo-590016.jpeg';
   @Input() button = 'Submit';
   @Input() fieldTitle = 'Email Subcription';
   @Input() fieldNotice = 'We will not SPAM you for any reason. We will not share your email with anyone!';

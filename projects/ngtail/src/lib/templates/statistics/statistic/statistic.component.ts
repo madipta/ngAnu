@@ -32,6 +32,6 @@ import { Component, Input } from '@angular/core';
 export class StatisticComponent {
   @Input() title = 'Moon hashtag pop-up try-hard offal truffaut';
   @Input() description = 'Pour-over craft beer pug drinking vinegar live-edge gastropub, keytar neutra sustainable fingerstache kickstarter.';
-  @Input() imageUrl = 'https://images.pexels.com/photos/186464/pexels-photo-186464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940';
+  @Input() imageUrl = '/assets/img/pexels-photo-186464.jpeg';
   @Input() stats: { title: string; value: string; }[] = [];
 }

@@ -31,7 +31,7 @@ export class HeroComponent {
   @Output() onLogin = new EventEmitter();
   @Input() title = 'Angular + TailwindCSS awesome!';
   @Input() text = 'Learn one way to build applications with Angular + TailwindCSS and reuse your code and abilities to build apps for any deployment target. For web, mobile web, native mobile and native desktop.';
-  @Input() imageUrl = 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260';
+  @Input() imageUrl = '/assets/img/pexels-photo-590016.jpeg';
   @Input() loginText = 'Sign In';
   @Input() registerText = 'Register';
 

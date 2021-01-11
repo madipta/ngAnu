@@ -120,21 +120,21 @@ export const TestimonialsData = [
     quote: `<p>Never build any relationship with someone
     based on Chemistry... Only for it to be torn
     down later by lack of Character.</p>`,
-    photoUrl: 'https://randomuser.me/api/portraits/men/2.jpg',
+    photoUrl: '/assets/img/1.jpg',
   },
   {
     name: 'Blondie',
     position: 'Single Parent',
     quote: `<p>They made me an offer I couldn't resits,
     My mom was right, I won't be happy until someone loses an eye.</p>`,
-    photoUrl: 'https://randomuser.me/api/portraits/men/3.jpg',
+    photoUrl: '/assets/img/21.jpg',
   },
   {
     name: 'Anonymous',
     position: 'Underground',
     quote: `Everyone shows their true identity,
     in time just observe with keen silence &amp; precise wits.`,
-    photoUrl: 'https://randomuser.me/api/portraits/men/4.jpg',
+    photoUrl: '/assets/img/66.jpg',
   },
 ];
 
@@ -142,7 +142,7 @@ export const ArticlesData = [
   {
     category: 'Movies',
     title: 'Harry Potter',
-    imageUrl: 'https://images.pexels.com/photos/5720777/pexels-photo-5720777.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260',
+    imageUrl: '/assets/img/pexels-photo-5720777.jpeg',
     views: '2.3K',
     comments: '9',
     description:
@@ -151,7 +151,7 @@ export const ArticlesData = [
   {
     category: 'Movies',
     title: 'Harry Potter',
-    imageUrl: 'https://images.pexels.com/photos/5686474/pexels-photo-5686474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imageUrl: '/assets/img/pexels-photo-5686474.jpeg',
     views: '750',
     comments: '5',
     description: 'Psriracha leggings jianbing microdosing.',
@@ -159,7 +159,7 @@ export const ArticlesData = [
   {
     category: 'Movies',
     title: 'Harry Potter',
-    imageUrl: 'https://images.pexels.com/photos/5995301/pexels-photo-5995301.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5995301.jpg&fm=jpg',
+    imageUrl: '/assets/img/pexels-maksim-goncharenok-5995301.jpg',
     views: '1.6K',
     comments: '23',
     description:
@@ -168,7 +168,7 @@ export const ArticlesData = [
   {
     category: 'Movies',
     title: 'Harry Potter',
-    imageUrl: 'https://images.pexels.com/photos/2557036/pexels-photo-2557036.jpeg?cs=srgb&dl=pexels-anna-tukhfatullina-food-photographerstylist-2557036.jpg&fm=jpg',
+    imageUrl: '/assets/img/pexels-anna-tukhfatullina-food-photographerstylist-2557036.jpg',
     views: '4.1K',
     comments: '66',
     description:
@@ -177,7 +177,7 @@ export const ArticlesData = [
   {
     category: 'Movies',
     title: 'Harry Potter',
-    imageUrl: 'https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imageUrl: '/assets/img/pexels-photo-95916.jpeg',
     views: '4.1K',
     comments: '66',
     description:
@@ -278,49 +278,49 @@ export const TeamData = [
   {
     name: 'Vincent Mangano',
     position: 'The Executioner',
-    photoUrl: 'https://randomuser.me/api/portraits/men/21.jpg',
+    photoUrl: '/assets/img/21.jpg',
     description: 'Money talks. The more money, the louder it talks.',
   },
   {
     name: 'Carlo Gambino',
     position: 'Boss of Bosses',
-    photoUrl: 'https://randomuser.me/api/portraits/men/66.jpg',
+    photoUrl: '/assets/img/66.jpg',
     description: 'Everybody you fight is not your enemy and everybody that helps you is not your friend.',
   },
   {
     name: 'Salvatore Gravano',
     position: 'Sammy the Bull',
-    photoUrl: 'https://randomuser.me/api/portraits/men/79.jpg',
+    photoUrl: '/assets/img/79.jpg',
     description: 'Don\'t ever take sides with anyone against the family.'
   },
   {
     name: 'Giuseppe Masseria',
     position: 'The Oddfather',
-    photoUrl: 'https://randomuser.me/api/portraits/men/82.jpg',
+    photoUrl: '/assets/img/82.jpg',
     description: 'Blood makes you related. Loyalty makes you family.',
   },
   {
     name: 'Anthony Anastasio',
     position: 'Tough Tony',
-    photoUrl: 'https://randomuser.me/api/portraits/men/7.jpg',
+    photoUrl: '/assets/img/7.jpg',
     description: 'Knowledge will give you power but character will give you respect.',
   },
   {
     name: 'Vincent Gigante',
     position: 'The Chin',
-    photoUrl: 'https://randomuser.me/api/portraits/men/40.jpg',
+    photoUrl: '/assets/img/40.jpg',
     description: 'I don\'t trust words, I even question actions but I never doubt patterns',
   },
   {
     name: 'Alessandro Vollero',
     position: 'Lieutenant',
-    photoUrl: 'https://randomuser.me/api/portraits/men/29.jpg',
+    photoUrl: '/assets/img/29.jpg',
     description: 'No one gives it to you. You have to take it.',
   },
   {
     name: 'Charlie Luciano',
     position: 'Lucky',
-    photoUrl: 'https://randomuser.me/api/portraits/men/71.jpg',
+    photoUrl: '/assets/img/71.jpg',
     description: 'Keep your friends close and your enemy closer..',
   },
 ];

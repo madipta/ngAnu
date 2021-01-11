@@ -26,6 +26,6 @@ import { DataStep } from '../data-step';
 })
 export class Step1Component {
   @Input() steps: DataStep[] = [];
-  @Input() imageUrl = 'https://images.pexels.com/photos/4063721/pexels-photo-4063721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500';
+  @Input() imageUrl = '/assets/img/pexels-photo-4063721.jpeg';
   @Input() imageAlt = 'ngTail';
 }

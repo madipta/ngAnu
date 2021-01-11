@@ -7,11 +7,12 @@ import { DataProduct } from '../data-product';
     <section class="text-gray-700">
       <div class="container py-24 mx-auto">
         <div class="flex flex-wrap -m-4">
-        <anu-product-item
-          [product]="product"
-          *ngFor="let product of products"
-          class="md:w-1/{{cols}} w-full sm:p-4 md:p-2 p-8"
-        ></anu-product-item>
+          <anu-product-item
+            [product]="product"
+            *ngFor="let product of products"
+            [ngClass]="ColumnClass"
+            class="w-full sm:p-4 md:p-2 p-8"
+          ></anu-product-item>
         </div>
       </div>
     </section>
@@ -34,5 +35,22 @@ export class ProductComponent {
     } else {
       this.cols = val;
     }
+  }
+
+  get ColumnClass(): string {
+    switch (this.cols) {
+      case 2:
+        return 'md:w-1/2';
+      case 3:
+        return 'md:w-1/3';
+      case 5:
+        return 'md:w-1/5';
+      case 6:
+        return 'md:w-1/6';
+      default:
+        return 'md:w-1/4';
+    }
+    // below is also work but probably not in the future
+    // return 'md:w-1/' + this.cols;
   }
 }
