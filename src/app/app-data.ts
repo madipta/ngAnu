@@ -218,7 +218,7 @@ export const EventsData = [
 
 export const ProductsData = [
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-704569.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     description: `Fam locavore kickstarter distillery. 
@@ -231,43 +231,43 @@ export const ProductsData = [
     reviews: 4,
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-1279330.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer Dummy Product',
     price: '$16.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-1640777.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     price: '$16.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-286283.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     price: '$16.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-1260968.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer Dummy Product',
     price: '$16.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-1583884.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     price: '$18.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-3326112.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     price: '$18.00',
   },
   {
-    imageUrl: 'https://dummyimage.com/420x260',
+    imageUrl: 'assets/img/pexels-photo-628776.jpeg',
     category: 'Shampoo',
     title: 'The Catalyzer',
     price: '$18.00',

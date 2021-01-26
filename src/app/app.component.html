@@ -7,19 +7,19 @@
       stroke-linecap="round" 
       stroke-linejoin="round"
       stroke-width="2" 
-      class="w-8 h-8 text-indigo-200 p-2 bg-indigo-600 rounded-full"
+      class="w-7 h-7 text-gray-400"
       viewBox="0 0 24 24"
       >
       <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
     </svg>
-    <span class="ml-3 tracking-wide text-indigo-400 text-2xl">{{appName}}</span>
+    <span class="ml-3 text-gray-300 text-xl">{{appName}}</span>
   </ng-container>
   <ng-container anu-header-menu>
     <a
       *ngFor="let menu of menuLinks"
       [routerLink]="menu.link"
       routerLinkActive="active"
-      class="cursor-pointer tracking-wide text-sm text-gray-300 hover:text-indigo-600 mt-1 mx-2 md:mx-5"
+      class="cursor-pointer tracking-wide text-sm text-white hover:text-indigo-600 mt-1 mx-2 md:mx-5"
       >{{menu.text}}</a
     >
   </ng-container>

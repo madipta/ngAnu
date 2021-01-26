@@ -7,7 +7,7 @@ import { DataProduct } from '../data-product';
     <section class="text-gray-700 overflow-hidden">
       <div class="container px-5 py-24 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-          <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://dummyimage.com/400x400">
+          <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" [src]="product.imageUrl">
           <div class="lg:w-1/2 w-full px-2 lg:pl-10 mt-6 lg:mt-2">
             <h2 class="text-sm text-gray-400 tracking-widest uppercase">{{product.category}}</h2>
             <h1 class="text-gray-900 text-3xl font-medium mb-1">{{product.title}}</h1>
