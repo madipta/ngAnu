@@ -5,7 +5,7 @@ import { DataProduct } from '../data-product';
   selector: 'anu-detail-product',
   template: `
     <section class="text-gray-700 overflow-hidden">
-      <div class="container px-5 py-24 mx-auto">
+      <div class="container px-5 pt-12 pb-16 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
           <img alt="ecommerce" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" [src]="product.imageUrl">
           <div class="lg:w-1/2 w-full px-2 lg:pl-10 mt-6 lg:mt-2">

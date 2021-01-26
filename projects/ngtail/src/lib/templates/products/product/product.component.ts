@@ -6,7 +6,7 @@ import { DataProduct } from '../data-product';
   template: `
     <section class="text-gray-700">
       <div class="container py-24 mx-auto">
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -my-4">
           <anu-product-item
             [product]="product"
             *ngFor="let product of products"

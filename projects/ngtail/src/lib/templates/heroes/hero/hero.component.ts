@@ -4,7 +4,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   selector: 'anu-hero',
   template: `
     <section class="bg-gradient-to-b from-indigo-100 to-transparent text-gray-600">
-      <div class="max-w-screen-lg mx-auto flex py-24 flex-col md:flex-row">
+      <div class="max-w-screen-lg mx-auto flex pt-12 pb-16 flex-col md:flex-row">
         <div class="mb-12 md:mb-0 md:w-1/2 px-5 flex flex-col items-center md:items-start text-center md:text-left">
           <h1 class="max-w-md sm:text-4xl text-3xl font-bold text-gray-800 mb-4" [innerHTML]="title"></h1>
           <p class="max-w-md mb-8 text-lg leading-relaxed" [innerHTML]="text"></p>
