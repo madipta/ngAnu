@@ -10,6 +10,6 @@ Don't forget to `npm instal` or `yarn` before
 Run `ng serve` to run the project.
 
 <p>
-  <img src="https://github.com/madipta/ngTail/blob/master/screenshot/screenshot-1-min.png?raw=true" width=100>
-  <img src="https://github.com/madipta/ngTail/blob/master/screenshot/screenshot-2-min.png?raw=true" width=100>
+  <img src="https://github.com/madipta/ngTail/blob/master/screenshot/screenshot-1-min.png?raw=true" width=200 align="top">
+  <img src="https://github.com/madipta/ngTail/blob/master/screenshot/screenshot-2-min.png?raw=true" width=200 align="top">
 </p>
