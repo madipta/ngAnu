@@ -1,34 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(229, 231, 235, var(--tw-bg-opacity)) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  border-radius: 20px;
+}
+
 
 .scroll-snap-mandatory {
-  scroll-snap-type: mandatory; 
+  scroll-snap-type: mandatory;
 }
 
 .scroll-snap-y-mandatory {
   scroll-snap-type: y mandatory;
 }
 
-.scroll-snap-y-mandatory::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.15);
-	border-radius: 4px;
-	background-color: transparent;
+.scroll-snap-y-mandatory::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #fafafa;
 }
 
-.scroll-snap-y-mandatory::-webkit-scrollbar
-{
-	width: 6px;
-	background-color: #fff;
+.scroll-snap-y-mandatory::-webkit-scrollbar {
+  width: 6px;
+  background-color: #fafafa;
 }
 
-.scroll-snap-y-mandatory::-webkit-scrollbar-thumb
-{
-	border-radius: 4px;
-	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.15);
-	background-color: #fafafa;
+.scroll-snap-y-mandatory::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.15);
+  background-color: #fafafa;
 }
 
 .scroll-snap-start {
   scroll-snap-align: start;
 }
-  
