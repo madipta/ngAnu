@@ -18,8 +18,9 @@
     <a
       *ngFor="let menu of menuLinks"
       [routerLink]="menu.link"
-      routerLinkActive="active"
-      class="cursor-pointer tracking-wide text-sm text-white hover:text-indigo-600 mt-1 mx-2 md:mx-5"
+      [routerLinkActiveOptions]="{exact: true}"
+      routerLinkActive="text-indigo-300"
+      class="cursor-pointer tracking-wide text-sm text-white mt-1 mx-2 md:mx-5"
       >{{menu.text}}</a
     >
   </ng-container>
